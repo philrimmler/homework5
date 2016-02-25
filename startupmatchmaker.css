@@ -1,0 +1,118 @@
+*{
+	font-family: helvetica;
+	text-align: center;
+	box-sizing: border-box;
+}
+.container{
+	max-width:900px;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    cursor: default;
+}
+header{
+	background-color: black;
+	border-bottom: 3px solid yellow;
+	overflow: hidden;
+}
+.logo{
+	float:left;
+	clear:top;
+	color:yellow;
+	font-size: 24px;
+	padding-left: 10px;
+	padding-top: ;
+}
+ul{
+	color: white;
+	float:right;
+}
+li{
+	display:inline-block;
+	padding:7px;
+}
+.find1{
+	font-weight:bold;
+}
+.blog1{
+	padding-right: 30px;
+}
+.nav{
+	clear: both;
+}
+.headline{
+	clear:both;
+	padding: 30px;
+	background-color:gray;
+}
+#strikethrough{
+	font-color:gray;
+	font-style:italic;
+}
+#underline{
+	text-decoration: underline;
+}
+.background-img{
+	background-image: url(coworking.jpg);
+	height:500px;
+	width:900px;
+	position:relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.floatingtext1 {
+  background: white;
+  width: 300px;
+  position: absolute;
+  right: 15%;
+  top: 40%;
+  border-width: 10px solid black;
+  padding: 10pxl
+}
+.profile{
+		padding: 10px;
+  background-color: yellow;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.startyoursearch{
+	padding: 10px;
+  background-color: gray;
+  font-weight: bold;
+  border-radius: 5px;
+ }
+.signupnow{
+  padding: 10px 10px;
+  font-weight: bold;
+  background-color: gray;
+  border-radius: 5px;
+}
+.createprofile{
+	float:left;
+	width:300px;
+	border: 1px solid black;
+	padding: 10px 10px;
+	clear:both;
+}
+.finddeveloper{
+	float:left;
+	width:300px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px 10px 40px 10px;
+}
+.finddesigner{
+	float:left;
+	width:300px;
+	border: 1px solid black;
+	padding:10px 10px 40px 10px;
+}
+footer{
+	clear:both;
+	color:white;
+	background-color: black;
+	padding:20px;
+	float:left;
+	width:900px;
+}
